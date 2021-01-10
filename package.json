@@ -38,6 +38,13 @@
       "images": [
         ".jpg",
         ".png"
+      ],
+      "fonts": [
+        ".ttf",
+        ".svg",
+        ".eot",
+        ".woff",
+        ".woff2"
       ]
     },
     "options": {
