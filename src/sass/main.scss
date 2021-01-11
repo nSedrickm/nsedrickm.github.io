@@ -6,6 +6,7 @@
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "../../node_modules/devicon/devicon.min.css";
+@import "../../node_modules/glightbox/dist/css/glightbox.min.css";
 
 //custom icon sizes same as FA
 
@@ -48,4 +49,24 @@
 
 a {
     text-decoration: none !important;
+}
+
+.gallery-item img {
+    transition: opacity 0.35s, transform 0.35s;
+    transform: translate3d(-40px, 0, 0);
+    
+}
+
+.gallery-item:hover img {
+    transform: translate3d(0, 0, 0);
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+.gallery-item:hover a::before {
+    opacity: 0.3;
+    transition: opacity 0.5s;
+}
+
+.rounded-lg {
+    border-radius: 15px;
 }
