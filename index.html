@@ -9,10 +9,10 @@
   <link rel="stylesheet" href="src/sass/main.scss" />
 </head>
 
-<body>
+<body data-scroll-container>
 
   <!-- header section  -->
-  <header class="h-100">
+  <header class="mb-md-5" >
     <nav class="navbar navbar-expand-lg navbar-light p-md-5">
       <div class="container-fluid">
         <a class="navbar-brand fw-bold" href="#">Sedrick | Meh</a>
@@ -21,7 +21,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="row collapse navbar-collapse" id="navbarNav">
-          <ul class="col-md-9 navbar-nav justify-content-center my-5 my-md-0">
+          <ul class="col-md-9 navbar-nav justify-content-center my-md-0">
             <li class="nav-item px-3">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
@@ -29,95 +29,89 @@
               <a class="nav-link" href="#">Skills & Experiences</a>
             </li>
             <li class="nav-item px-3">
-              <a class="nav-link" href="#">Awards</a>
+              <a class="nav-link" href="#">Projects</a>
             </li>
             <li class="nav-item px-3">
-              <a class="nav-link" href="#">Works</a>
-            </li>
-            <li class="nav-item px-3">
-              <a class="nav-link" href="#" tabindex="-1">Lets talk</a>
+              <a class="nav-link" href="#" tabindex="-1">Contact</a>
             </li>
           </ul>
           <ul class="col-md-3 navbar-nav justify-content-center">
             <li class="nav-item">
-              <a class="nav-link px-3" href="#">Twitter</a>
+              <a class="nav-link px-3" href="#"><i class="devicon-twitter-original colored"></i> twitter</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-3" href="#">github</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link px-3" href="#">email</a>
+              <a class="nav-link px-3" href="#"><i class="devicon-github-original colored"></i> github</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
-    <div class="container my-5">
-      <div class="row">
-        <div class="col-md-6 p-md-5">
-
-          <div class="d-flex flex-md-row">
-            <p class="px-3 py-2 mx-1 bg-light text-dark rounded-pill shadow-sm">Tech Enthusiast</p>
-            <p class="px-3 py-2 mx-1 bg-danger text-white rounded-pill shadow-sm">Web Developer</p>
-          </div>
-
-          <h1 class="my-5 display-2"> Hi, I'm <span class="fw-bold">Sedrick</span></h1>
-
-          <p class="lead">I am a Tech enthusiast and Web developer. I enjoy coding and spend most of my days designing
-            and
-            building applications</p>
-        </div>
-
-        <div class="col-md-6">
-          <img class="d-block mx-auto rounded-circle" src="src/img/triangles.webp">
-        </div>
-      </div>
-    </div>
-
   </header>
 
+  <section class="container vh-100" data-scroll-section>
+    <div class="row p-5">
+      <div class="col-md-6 my-auto" data-scroll>
+
+        <div class="d-flex flex-md-row">
+          <p class="px-3 py-2 mx-1 bg-light text-dark rounded-pill shadow-sm ">Tech Enthusiast</p>
+          <p class="px-3 py-2 mx-1 bg-danger text-white rounded-pill shadow-sm ">Web Developer</p>
+        </div>
+
+        <h1 class="display-2 my-4"> Hi, I'm <span class="fw-bold">Sedrick</span></h1>
+
+        <p class="lead">I am a Tech enthusiast and Web developer. I enjoy coding and spend most of my days designing
+          and
+          building applications</p>
+      </div>
+
+      <div class="col-md-6 mb-5" data-scroll>
+        <img class="img-fluid rounded-lg" src="src/img/me.webp">
+      </div>
+    </div>
+  </section>
+
   <!-- skills and timeline section -->
-  <section class="container p-5">
+  <section class="container mt-5 p-5" data-scroll-section>
 
-    <h2 class="text-center my-5 fw-bold display-4">Skills & Experiences</h2>
+    <h2 class="display-5 mb-5">Skills & Experiences</h2>
 
-    <div class="row">
-      <div class="col-md-6">
+    <div class="row" data-scroll>
+      <div class="col-md-6 text-center text-md-left">
         <div class="mb-4">
-          <i class="devicon-html5-plain-wordmark colored di-5x d-inline-block p-3 rounded-3 m-1 "></i>
-          <i class="devicon-css3-plain-wordmark colored di-5x d-inline-block p-3 rounded-3 m-1 "></i>
-          <i class="devicon-javascript-plain colored di-5x d-inline-block p-3 rounded-3 m-1 "></i>
-          <i class="devicon-sass-original colored di-5x d-inline-block p-3 rounded-3 m-1 "></i>
+          <i class="devicon-html5-plain-wordmark colored di-4x d-inline-block p-3 border rounded-lg m-1 "></i>
+          <i class="devicon-css3-plain-wordmark colored di-4x d-inline-block p-3 border rounded-lg m-1 "></i>
+          <i class="devicon-javascript-plain colored di-4x d-inline-block p-3 border rounded-lg m-1 "></i>
+          <i class="devicon-sass-original colored di-4x d-inline-block p-3 border rounded-lg m-1 "></i>
         </div>
 
         <div class="mb-4">
-          <i class="devicon-angularjs-plain colored di-5x d-inline-block p-3 rounded-3 m-1 "></i>
-          <i class="devicon-react-original-wordmark colored di-5x d-inline-block p-3 rounded-3 m-1 "></i>
-          <i class="devicon-bootstrap-plain-wordmark colored di-5x d-inline-block p-3 rounded-3 m-1 "></i>
-          <i class="devicon-electron-original di-5x d-inline-block p-3 rounded-3 m-1 "></i>
+          <i class="devicon-angularjs-plain colored di-4x d-inline-block p-3 border rounded-lg m-1 "></i>
+          <i class="devicon-react-original-wordmark colored di-4x d-inline-block p-3 border rounded-lg m-1 "></i>
+          <i class="devicon-bootstrap-plain-wordmark colored di-4x d-inline-block p-3 border rounded-lg m-1 "></i>
+          <i class="devicon-electron-original di-4x d-inline-block p-3 border rounded-lg m-1 "></i>
         </div>
 
         <div class="mb-4">
-          <i class="devicon-npm-original-wordmark colored di-5x d-inline-block p-3 rounded-3 m-1 "></i>
-          <i class="devicon-nodejs-plain colored di-5x d-inline-block p-3 rounded-3 m-1 "></i>
-          <i class="devicon-php-plain colored di-5x d-inline-block p-3 rounded-3 m-1 "></i>
-          <i class="devicon-mysql-plain-wordmark colored di-5x d-inline-block p-3 rounded-3 m-1 "></i>
+          <i class="devicon-npm-original-wordmark colored di-4x d-inline-block p-3 border rounded-lg m-1 "></i>
+          <i class="devicon-nodejs-plain colored di-4x d-inline-block p-3 border rounded-lg m-1 "></i>
+          <i class="devicon-php-plain colored di-4x d-inline-block p-3 border rounded-lg m-1 "></i>
+          <i class="devicon-mysql-plain-wordmark colored di-4x d-inline-block p-3 border rounded-lg m-1 "></i>
         </div>
 
         <div class="mb-4">
-          <i class="devicon-linux-plain colored di-5x d-inline-block p-3 rounded-3 m-1 "></i>
-          <i class="devicon-docker-plain-wordmark colored di-5x d-inline-block p-3 rounded-3 m-1 "></i>
-          <i class="devicon-wordpress-plain-wordmark colored di-5x d-inline-block p-3 rounded-3 m-1 "></i>
+          <i class="devicon-linux-plain colored di-4x d-inline-block p-3 border rounded-lg m-1 "></i>
+          <i class="devicon-docker-plain-wordmark colored di-4x d-inline-block p-3 border rounded-lg m-1 "></i>
+          <i class="devicon-github-original colored di-4x d-inline-block p-3 border rounded-lg m-1 "></i>
+          <i class="devicon-wordpress-plain-wordmark colored di-4x d-inline-block p-3 border rounded-lg m-1 "></i>
         </div>
 
       </div>
 
-      <div class="col-md-6">
+      <div class="col-md-6" data-scroll>
 
-        <div class="card mb-3 shadow-sm border-0 ">
+        <div class="card mb-3 shadow">
           <div class="card-body p-4 d-flex flex-column flex-md-row">
-            <h5 class="text-danger">2021</h5>
+            <h6 class="text-dark">2021</h6>
 
             <div class="ms-md-5">
               <h5 class="card-title fw-bold">MOBILE WEB DEVELOPER</h5>
@@ -126,9 +120,9 @@
           </div>
         </div>
 
-        <div class="card mb-3 shadow-sm border-0 ">
+        <div class="card mb-3 shadow">
           <div class="card-body p-4 d-flex flex-column flex-md-row">
-            <h5 class="text-danger">2020</h5>
+            <h6 class="text-dark">2020</h6>
 
             <div class="ms-md-5">
               <h5 class="card-title fw-bold">WEB DEVELOPER</h5>
@@ -137,12 +131,23 @@
           </div>
         </div>
 
-        <div class="card mb-3 shadow-sm border-0 ">
+        <div class="card mb-3 shadow">
           <div class="card-body p-4 d-flex flex-column flex-md-row">
-            <h5 class="text-danger">2019</h5>
+            <h6 class="text-dark">2019</h6>
 
             <div class="ms-md-5">
-              <h5 class="card-title fw-bold">INTERN</h5>
+              <h5 class="card-title fw-bold">INTERNSHIP</h5>
+              <a class="card-text" target="_blank" href="https://afkanerd.io">afkanerd.io</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 shadow">
+          <div class="card-body p-4 d-flex flex-column flex-md-row">
+            <h6 class="text-dark">2018</h6>
+
+            <div class="ms-md-5">
+              <h5 class="card-title fw-bold">INTERNSHIP</h5>
               <a class="card-text" target="_blank" href="https://afkanerd.io">afkanerd.io</a>
             </div>
           </div>
@@ -156,31 +161,32 @@
   </section>
 
   <!-- works -->
-  <section class="container">
-    <h2 class="my-5 fw-bold display-4">Projects</h2>
+  <section class="container mt-5" data-scroll-section>
+    <h2 class="display-5 mb-5">Projects</h2>
 
-    <div class="row ">
-      <div class="col-md-6 gallery-item">
+    <div class="row g-4">
+      <div class="col-md-6 gallery-item " data-scroll>
         <a href="src/img/projects/afkanerd_full.webp" class="glightbox">
           <img class="img-fluid shadow rounded-lg" src="src/img/projects/afkanerd_preview.webp" alt="image" />
         </a>
       </div>
 
-      <div class="col-md-6 gallery-item">
-        <a href="src/img/projects/minimarket.webp" class="glightbox">
-          <img class="img-fluid shadow rounded-lg" src="src/img/projects/minimarket.webp" alt="image" />
-        </a>
-      </div>
-
-      <div class="col-md-6 gallery-item">
+      <div class="col-md-6 gallery-item " data-scroll>
         <a href="src/img/projects/meWeather.webp" class="glightbox">
           <img class="img-fluid shadow rounded-lg" src="src/img/projects/meWeather.webp" alt="image" />
         </a>
       </div>
 
+      <div class="col-md-6 gallery-item " data-scroll>
+        <a href="src/img/projects/minimarket.webp" class="glightbox">
+          <img class="img-fluid shadow rounded-lg" src="src/img/projects/minimarket.webp" alt="image" />
+        </a>
+      </div>
+
+
+
     </div>
   </section>
-
 
   <script src="src/js/main.js"></script>
 </body>

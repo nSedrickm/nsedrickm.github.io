@@ -19,7 +19,8 @@
     "@popperjs/core": "^2.6.0",
     "bootstrap": "^5.0.0-beta1",
     "devicon": "^2.2.0",
-    "glightbox": "^3.0.7"
+    "glightbox": "^3.0.7",
+    "locomotive-scroll": "^4.0.6"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
