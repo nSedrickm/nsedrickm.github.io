@@ -1,0 +1,7 @@
+spec:
+ name: Portfolio
+ services:
+ - name: web
+   git:
+     branch: main
+     repo_clone_url: https://github.com/nsedrickm/nsedrickm.github.io.git
